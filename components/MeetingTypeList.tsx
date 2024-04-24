@@ -85,7 +85,7 @@ const MeetingTypeList = () => {
         isOpen={meetingState === "isScheduleMeeting"}
         onClose={() => setMeetingState(undefined)}
         title="Create Meeting"
-        handleClick={() => {}}
+        handleClick={createMeeting}
       />
     </section>
   );
